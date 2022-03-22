@@ -1,0 +1,95 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c111b;
+  color: white;
+  margin-bottom: 8rem;
+  
+}
+
+.headerMain {
+  /* background-color: #121926; */
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.heading {
+  font-size: 2.5rem
+}
+
+.heading span {
+  color: #61dafb;
+}
+
+.dashboardSubMain {
+  display: flex;
+  width: 86rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboardMain {
+  display: flex;
+  justify-content: center;
+}
+
+.scoreComponentMain {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.scoreShowerMain {
+  background-color: #121926;
+  /* background-color: #1a2230; */
+  width: 42rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5rem 0rem 1.5rem 2.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.componentData {
+  display: flex;
+  justify-content: space-around;
+}
+
+.componentTitle {
+  font-size: 2rem;
+  padding: 2rem 0rem 0rem 2rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.team1Data,
+.team2Data {
+  font-weight: bold;
+}
+
+.detailsData,
+.statusData {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .dashboardSubMain {
+    width: 95%;
+  }
+
+  .componentData {
+    flex-wrap: wrap;
+  }
+
+  .scoreShowerMain {
+    width: 100%;
+  }
+}
