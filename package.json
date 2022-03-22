@@ -1,0 +1,22 @@
+{
+  "name": "VARtCric",
+  "version": "1.0.0",
+  "description": "This Is Simple Web App Who Shows Real Time  Cricket Score",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": ["VARtCric","VARt Cric","VARt World","VARtWorld","VARt","Vedupaji","Cric","Ethereum","Metamask"],
+  "author": "Vedupaji",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "node-fetch": "2.0",
+    "socket.io": "^4.4.1"
+  }
+}
